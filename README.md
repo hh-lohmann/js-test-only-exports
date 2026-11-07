@@ -3,6 +3,8 @@
 
 # Provide access to not exported functions for testing by a generalized special export returning references to them
 
+*[hh.lohmann &lt;hh.lohmann@gmail.com&gt;](mailto:hh.lohmann@gmail.com?subject=js-test-only-exports)*
+
 
 Giving unit testing access to not exported / not exposed / internal functions can be done by a generalized special export that returns references to such functions, e.g. the not exported functions
 
