@@ -17,8 +17,10 @@ can be provided by a single generalized special export
 
 ```js
 export const testOnlyExport=function(toExport){
-  // Security check: only valid names are => no executable code
+  // Security check: only valid names => no executable code
   if(!/^\w+$/.test(toExport)) throw Error('testOnlyExport: Illegal function name passed')
+  // Security check: only functions, no (really) mutable objects
+  if(typeof eval(toExport)!=='function') throw Error(`testOnlyExport: "${toExport}" is not a function`)
   return eval(toExport)
 }
 ```
