@@ -1,0 +1,31 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@reporters/bail':
+        specifier: ^2.0.3
+        version: 2.0.3
+      node-test-bootstrap:
+        specifier: ^1.2.3
+        version: 1.2.3
+
+packages:
+
+  '@reporters/bail@2.0.3':
+    resolution: {integrity: sha512-CVUavaf8GUv46xsb0NhC7H5NruxVXaRe7ZGLyYxdb2mHBcd17aJoiN7ffbL8h8xjN4L5Nu/6GpFFIjV2ZkMbVA==}
+
+  node-test-bootstrap@1.2.3:
+    resolution: {integrity: sha512-8jOcnznsF0p9YTrjPz/yXryKri7VwBXE47xnRZXHI1DJFu6drBJpTNJgCwfeSIdQC7Cm7OiVuLJQsfCWHefpRA==}
+    engines: {node: '>=22.20.0'}
+
+snapshots:
+
+  '@reporters/bail@2.0.3': {}
+
+  node-test-bootstrap@1.2.3: {}

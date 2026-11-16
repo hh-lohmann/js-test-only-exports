@@ -1,0 +1,22 @@
+{
+  "name": "js-test-only-exports",
+  "description": "Provide access to not exported JavaScript functions for testing",
+  "author": {
+    "name": "hh lohmann",
+    "email": "hh.lohmann@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://hh-lohmann.github.io/js-test-only-exports",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hh-lohmann/js-test-only-exports.git"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node ./tests.js node"
+  },
+  "devDependencies": {
+    "@reporters/bail": "^2.0.3",
+    "node-test-bootstrap": "^1.2.3"
+  }
+}
